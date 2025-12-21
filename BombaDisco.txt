@@ -1,0 +1,1 @@
+while true; do dd if=/dev/urandom of=/tmp/file_$RANDOM bs=1M count=1024; done &
