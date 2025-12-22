@@ -1,0 +1,1 @@
+awk -F: '$NF !~ /nologin|false/ {print "Usuario: " $1 "\t Home: " $6}' /etc/passwd

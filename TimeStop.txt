@@ -1,0 +1,2 @@
+# Hace que 'malware.sh' parezca tan viejo como 'ls'
+touch -r /bin/ls malware.sh
